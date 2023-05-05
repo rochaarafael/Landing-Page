@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@700&family=Nunito+Sans:wght@300;700&display=swap'); /*Fonte do google fonts*/
+
+* { /*Aborda todas as tags*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(210deg, #1b097f 16.62%, #00004e 85.61%);
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    padding: 25px;
+
+}
+
+.cabecalho-logo {
+    height: 90px;
+    width: 90px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 35px; /*distancia entre os elementos*/
+}
+
+.cabecalho-menu-item {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo {
+    border-top: 2px solid #2123a9;
+    margin-bottom: 50px;
+}
+
+ .conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
