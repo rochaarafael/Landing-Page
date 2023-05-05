@@ -12,7 +12,6 @@ body {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(210deg, #1b097f 16.62%, #00004e 85.61%);
-
 }
 
 .cabecalho {
@@ -46,6 +45,16 @@ body {
     background-color: #d36f41;
     color: rgb(23, 12, 72);
     border-radius: 15px;
+}
+
+.FixoNoTopo {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.FixoNoTopo + .conteudo {
+    padding-top: 60px;
 }
 
 .conteudo {
@@ -99,4 +108,15 @@ body {
     font-weight: 400px;
     font-size: 34px;
     color: #FFF2E7;
+}
+
+.rodape {
+    padding: 40px;
+    border-top: 2px solid #2123a9;
+}
+
+.rodape-imagem {
+    height: 80px;
+    display: block;
+    margin: 0 auto;
 }
