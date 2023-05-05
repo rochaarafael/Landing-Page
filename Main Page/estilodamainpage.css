@@ -11,7 +11,7 @@ body {
     font-size: 100%;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(210deg, #1b097f 16.62%, #00004e 85.61%);
+    
 }
 
 .cabecalho {
@@ -20,7 +20,8 @@ body {
     align-items: center;
     justify-content: space-around; 
     padding: 25px 25px;
-    border-bottom: 2px solid #2123a9;
+    border-bottom: 2px solid #d36f41;
+    background: linear-gradient(210deg, #22082c, #211826, #22082c);
 }
 
 .cabecalho-logo {
@@ -51,23 +52,23 @@ body {
     position: fixed;
     top: 0px;
     width: 100%;
-    background: linear-gradient(210deg, #1b097f 16.62%, #00004e 85.61%);
-}
-
-.FixoNoTopo + .conteudo {
-    padding-top: 60px;
+    
 }
 
 .conteudo {
-    margin-bottom: 50px;
-    margin-top: 100px;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 300px;
+    padding-bottom: 80px;
+    background: linear-gradient(210deg, #22082c, #211826, #22082c);
+
 }
 
  .conteudo-principal {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
  }
 
 .conteudo-principal-escrito {
@@ -103,8 +104,8 @@ body {
 }
 
 .conteudo-secundario-titulo {
-    border-top:2px solid #2123a9;
-    padding-top: 50px;
+    border-top:2px solid #d36f41;
+    padding-top: 80px;
     font-family: 'Khand', sans-serif;
     font-weight: 400px;
     font-size: 34px;
@@ -114,10 +115,53 @@ body {
 .rodape {
     padding: 40px;
     border-top: 2px solid #2123a9;
+    background: linear-gradient(210deg, #22082c, #211826, #22082c);
 }
 
 .rodape-imagem {
     height: 80px;
     display: block;
     margin: 0 auto;
+}
+
+.sobrenos {
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.sobrenos-conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sobrenos-principal {
+    width: 50vw;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.sobrenos-secundario {
+    width: 50vw;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.sobrenos-paragrafo {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #1c0f05;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.sobrenos-titulo {
+    font-family: 'Khand', sans-serif;
+    color: #d36f41;
+    font-weight: 400;
+    font-size: 80px;
 }
