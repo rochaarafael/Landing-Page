@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@700&family=Nunito+Sans:wght@300;700&display=swap'); /*Fonte do google fonts*/
+
+* { /*Aborda todas as tags*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(210deg, #1b097f 16.62%, #00004e 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    padding: 25px 25px;
+    border-bottom: 2px solid #2123a9;
+}
+
+.cabecalho-logo {
+    height: 90px;
+    width: 90px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    /*gap: 60px; distancia entre os elementos*/
+}
+
+.cabecalho-menu-item {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0px 30px;
+    padding: 30px;
+}
+.cabecalho-menu-item:hover {
+    background-color: #d36f41;
+    color: rgb(23, 12, 72);
+    border-radius: 15px;
+}
+
+.FixoNoTopo {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: linear-gradient(210deg, #1b097f 16.62%, #00004e 85.61%);
+}
+
+.FixoNoTopo + .conteudo {
+    padding-top: 60px;
+}
+
+.conteudo {
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+ .conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Khand', sans-serif;
+    font-weight: 400px;
+    font-size: 120px;
+    color: #FFF2E7;
+}
+
+ .conteudo-principal-escrito-subtitulo {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 34px;
+ }
+
+.conteudo-principal-imagem {
+    height: 550px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.conteudo-secundario-titulo {
+    border-top:2px solid #2123a9;
+    padding-top: 50px;
+    font-family: 'Khand', sans-serif;
+    font-weight: 400px;
+    font-size: 34px;
+    color: #FFF2E7;
+}
+
+.rodape {
+    padding: 40px;
+    border-top: 2px solid #2123a9;
+}
+
+.rodape-imagem {
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}

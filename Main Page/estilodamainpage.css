@@ -51,6 +51,7 @@ body {
     position: fixed;
     top: 0px;
     width: 100%;
+    background: linear-gradient(210deg, #1b097f 16.62%, #00004e 85.61%);
 }
 
 .FixoNoTopo + .conteudo {
